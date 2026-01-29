@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+core/__init__.py
+core/config.py
+core/data_structures.py
+personreid_agents.egg-info/PKG-INFO
+personreid_agents.egg-info/SOURCES.txt
+personreid_agents.egg-info/dependency_links.txt
+personreid_agents.egg-info/requires.txt
+personreid_agents.egg-info/top_level.txt
+tests/test_data_structures.py

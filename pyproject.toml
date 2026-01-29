@@ -26,3 +26,7 @@ dev = [
   "ruff",
   "ipykernel"
 ]
+
+[tool.setuptools]
+packages = ["core", "modules"]
+
