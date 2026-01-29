@@ -30,7 +30,7 @@ class RetrievalConfig:
     # Identity-level retrieval settings
     use_identity_aggregation: bool = True
     aggregation_method: str = "top_m_mean"  # "max", "mean", "top_m_mean"
-    top_m_views: int = 3  # For top-m mean pooling
+    top_m_views: int = 5 # For top-m mean pooling
     
     # Candidate pool settings
     num_candidates: int = 100
