@@ -8,10 +8,10 @@ from typing import List, Dict, Tuple, Optional
 from scipy.stats import entropy
 from scipy.spatial.distance import euclidean
 
-from ..core.data_structures import (
+from core.data_structures import (
     Identity, CandidateSet, Question, Attribute, BeliefState
 )
-from ..core.config import RetrievalConfig
+from core.config import RetrievalConfig
 
 
 class CounterfactualQuestionSelector:
